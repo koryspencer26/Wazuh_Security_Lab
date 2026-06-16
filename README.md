@@ -14,7 +14,7 @@ This project demonstrates the end-to-end deployment of a hardened, bare-metal Se
 ---
 
 ## Environment Specifications
-* **Infrastructure Host (SIEM/SOAR Manager):** Ubuntu Server (Bare Metal Architecture) | Static IP: `10.0.0.5`
+* **Infrastructure Host (SIEM/SOAR Manager):** Ubuntu Server (Bare Metal Architecture)
 * **Endpoint 001:** Windows 11 Workspace Device (Wazuh Agent Active)
 * **Endpoint 002:** Windows 11 Secondary Device (Wazuh Agent Active)
 * **Containerization Engine:** Docker Engine & Docker Compose
