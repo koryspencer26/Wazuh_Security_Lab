@@ -1,4 +1,6 @@
-### Endpoint Onboarding & Scaling
+# Phase 3: 
+
+## Endpoint Onboarding & Scaling
 
 ---
 
