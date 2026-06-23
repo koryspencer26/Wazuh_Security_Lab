@@ -33,11 +33,13 @@ This project details the end-to-end deployment of a home security lab, setting u
 *   **Troubleshooting & Fixes:** Fixed agent enrollment failures (`Error 1208`) by auditing active socket listeners using `ss` and identifying service binding issues on the manager.
 *   **Security Hardening:** Configured strict Uncomplicated Firewall (UFW) rules, opening only the exact ports required for Wazuh registration (TCP) and telemetry ingestion (UDP).
 
-### 📁 [Phase 3: Multi-Agent Deployment & Telemetry Validation](./02-siem-deployment/)
+### 📁 [Phase 3: Multi-Agent Deployment & Telemetry Validation](./03-siem-deployment/)
 *   **Objective:** Scale the lab environment to support multi-node monitoring.
 *   **Troubleshooting & Fixes:** Resolved endpoint communication retry loops by restarting stalled agent services and flushing configurations via administrative PowerShell.
 *   **Telemetry Verification:** Successfully onboarded multiple Windows devices and verified live log ingestion by executing discovery commands (`whoami`) on endpoints and monitoring the corresponding SIEM alerts.
 
-### 📁 [Phase 4: Containerized SOAR Integration (In Progress)](./03-soar-automation/)
+### 📁 [Phase 4: Wazuh Rule Tuning (In Progress)](./04-soar-automation/)
+
+### 📁 [Phase 5: Containerized SOAR Integration (In Progress)](./05-soar-automation/)
 *   **Objective:** Deploy and configure Shuffle SOAR inside Docker to automate phishing and alert analysis.
 *   **Current Focus:** Tuning Linux kernel virtual memory parameters (`vm.max_map_count`) to support the backend OpenSearch database cluster, staging the Shuffle environment via Docker Compose, and adjusting host firewall routing for web access.
