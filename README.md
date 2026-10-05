@@ -39,7 +39,3 @@ This project details the end-to-end deployment of a home security lab, setting u
 *   **Telemetry Verification:** Successfully onboarded multiple Windows devices and verified live log ingestion by executing discovery commands (`whoami`) on endpoints and monitoring the corresponding SIEM alerts.
 
 ### 📁 [Phase 4: Wazuh Rule Tuning (In Progress)](./04-soar-automation/)
-
-### 📁 [Phase 5: Containerized SOAR Integration (In Progress)](./05-soar-automation/)
-*   **Objective:** Deploy and configure Shuffle SOAR inside Docker to automate phishing and alert analysis.
-*   **Current Focus:** Tuning Linux kernel virtual memory parameters (`vm.max_map_count`) to support the backend OpenSearch database cluster, staging the Shuffle environment via Docker Compose, and adjusting host firewall routing for web access.
